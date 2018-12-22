@@ -13,7 +13,7 @@ wb = load_workbook(filename=infile_name)
 
 
 def extract_data(sheet_name):
-    '''given the name of a sheet, return a actual data minus cruft'''
+    '''given the name of a sheet, return actual data minus cruft'''
 
     # grab the year from the sheet name
     year = int(sheet_name.split()[-1].strip())
