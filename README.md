@@ -1,2 +1,2 @@
-# dhs-forfeiture
-Cleaning up a FOIA'd spreadsheet of DHS forfeiture data.
+# DHS forfeiture data
+[Some Python](https://github.com/cjwinchester/dhs-forfeiture/blob/master/dhs.py) to reshape a FOIA'd spreadsheet of DHS forfeiture data, obtained by [Camille Fasset](https://github.com/camfassett) and [Freddy Martinez](https://github.com/b-meson) for [this article on Splinter](https://splinternews.com/documents-ice-cbp-seize-billions-in-assets-including-1831181924), into a CSV -- `openpyxl` and `pillow` are the only dependencies.
